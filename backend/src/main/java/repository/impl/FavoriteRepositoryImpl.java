@@ -22,7 +22,7 @@ public class FavoriteRepositoryImpl implements FavoriteRepository {
         this.advertisementRepository = new AdvertisementRepositoryImpl();
     }
 
-    // ================= SAVE =================
+
     @Override
     public Favorite save(Favorite favorite) {
 
@@ -63,7 +63,7 @@ public class FavoriteRepositoryImpl implements FavoriteRepository {
         }
     }
 
-    // ================= DELETE BY ID =================
+
     @Override
     public void delete(int favoriteId) {
 
@@ -83,7 +83,7 @@ public class FavoriteRepositoryImpl implements FavoriteRepository {
         }
     }
 
-    // ================= DELETE BY USER + AD =================
+
     @Override
     public void deleteByUserIdAndAdvertisementId(int userId, int advertisementId) {
 
@@ -108,7 +108,7 @@ public class FavoriteRepositoryImpl implements FavoriteRepository {
         }
     }
 
-    // ================= FIND BY ID =================
+
     @Override
     public Favorite findById(int favoriteId) {
 
@@ -135,7 +135,7 @@ public class FavoriteRepositoryImpl implements FavoriteRepository {
         }
     }
 
-    // ================= FIND ALL =================
+
     @Override
     public List<Favorite> findAll() {
 
@@ -161,7 +161,7 @@ public class FavoriteRepositoryImpl implements FavoriteRepository {
         }
     }
 
-    // ================= FIND BY USER ID =================
+
     @Override
     public List<Favorite> findByUserId(int userId) {
 
@@ -190,7 +190,7 @@ public class FavoriteRepositoryImpl implements FavoriteRepository {
         }
     }
 
-    // ================= EXISTS =================
+
     @Override
     public boolean existsByUserIdAndAdvertisementId(int userId, int advertisementId) {
 
@@ -217,7 +217,7 @@ public class FavoriteRepositoryImpl implements FavoriteRepository {
         }
     }
 
-    // ================= MAP =================
+
     private Favorite mapFavorite(ResultSet rs) throws SQLException {
 
         Favorite favorite = new Favorite();

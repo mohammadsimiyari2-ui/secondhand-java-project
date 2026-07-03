@@ -22,7 +22,7 @@ public class ConversationRepositoryImpl implements ConversationRepository {
         this.advertisementRepository = new AdvertisementRepositoryImpl();
     }
 
-    // ================= SAVE =================
+
     @Override
     public Conversation save(Conversation conversation) {
 
@@ -58,7 +58,7 @@ public class ConversationRepositoryImpl implements ConversationRepository {
         }
     }
 
-    // ================= UPDATE (only closed) =================
+
     @Override
     public Conversation update(Conversation conversation) {
 
@@ -86,7 +86,7 @@ public class ConversationRepositoryImpl implements ConversationRepository {
         }
     }
 
-    // ================= DELETE =================
+
     @Override
     public void delete(int conversationId) {
 
@@ -106,7 +106,7 @@ public class ConversationRepositoryImpl implements ConversationRepository {
         }
     }
 
-    // ================= FIND BY ID =================
+
     @Override
     public Conversation findById(int conversationId) {
 
@@ -133,7 +133,7 @@ public class ConversationRepositoryImpl implements ConversationRepository {
         }
     }
 
-    // ================= FIND ALL =================
+
     @Override
     public List<Conversation> findAll() {
 
@@ -159,7 +159,7 @@ public class ConversationRepositoryImpl implements ConversationRepository {
         }
     }
 
-    // ================= FIND BY USER =================
+
     @Override
     public List<Conversation> findByUserId(int userId) {
 
@@ -192,7 +192,7 @@ public class ConversationRepositoryImpl implements ConversationRepository {
         }
     }
 
-    // ================= FIND BY 3 IDS =================
+
     @Override
     public Conversation findByUsersAndAdvertisement(int buyerId, int sellerId, int advertisementId) {
 
@@ -226,7 +226,7 @@ public class ConversationRepositoryImpl implements ConversationRepository {
         }
     }
 
-    // ================= MAP =================
+
     private Conversation mapConversation(ResultSet rs) throws SQLException {
 
         Conversation conversation = new Conversation();

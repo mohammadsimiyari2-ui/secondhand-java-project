@@ -12,7 +12,7 @@ public class DatabaseInitializer {
                 Statement statement = connection.createStatement()
         ) {
 
-            // ================= USERS =================
+
             statement.execute("""
                     CREATE TABLE IF NOT EXISTS users (
                         id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -28,7 +28,7 @@ public class DatabaseInitializer {
 
             System.out.println("Users table created.");
 
-            // ================= CATEGORIES =================
+
             statement.execute("""
                     CREATE TABLE IF NOT EXISTS categories (
                         id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -37,7 +37,7 @@ public class DatabaseInitializer {
                     );
             """);
 
-            // ================= CITIES =================
+
             statement.execute("""
                     CREATE TABLE IF NOT EXISTS cities (
                         id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -46,7 +46,7 @@ public class DatabaseInitializer {
                     );
             """);
 
-            // ================= ADVERTISEMENTS =================
+
             statement.execute("""
                     CREATE TABLE IF NOT EXISTS advertisements (
                         id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -74,7 +74,7 @@ public class DatabaseInitializer {
 
             System.out.println("Advertisements table created.");
 
-            // ================= ADVERTISEMENT IMAGES =================
+
             statement.execute("""
                     CREATE TABLE IF NOT EXISTS advertisement_images (
                         id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -88,7 +88,7 @@ public class DatabaseInitializer {
                     );
             """);
 
-            // ================= CONVERSATIONS =================
+
             statement.execute("""
                     CREATE TABLE IF NOT EXISTS conversations (
                         id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -105,7 +105,7 @@ public class DatabaseInitializer {
                     );
             """);
 
-            // ================= MESSAGES =================
+
             statement.execute("""
                     CREATE TABLE IF NOT EXISTS messages (
                         id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -126,7 +126,7 @@ public class DatabaseInitializer {
                     );
             """);
 
-            // ================= FAVORITES =================
+
             statement.execute("""
                     CREATE TABLE IF NOT EXISTS favorites (
                         id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -141,7 +141,7 @@ public class DatabaseInitializer {
                     );
             """);
 
-            // ================= RATINGS =================
+
             statement.execute("""
                     CREATE TABLE IF NOT EXISTS ratings (
                         id INTEGER PRIMARY KEY AUTOINCREMENT,

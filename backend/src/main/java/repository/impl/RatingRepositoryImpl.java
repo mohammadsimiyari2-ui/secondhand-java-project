@@ -22,7 +22,7 @@ public class RatingRepositoryImpl implements RatingRepository {
         this.advertisementRepository = new AdvertisementRepositoryImpl();
     }
 
-    // ================= SAVE =================
+
     @Override
     public Rating save(Rating rating) {
 
@@ -59,7 +59,7 @@ public class RatingRepositoryImpl implements RatingRepository {
         }
     }
 
-    // ================= UPDATE =================
+
     @Override
     public Rating update(Rating rating) {
 
@@ -89,7 +89,7 @@ public class RatingRepositoryImpl implements RatingRepository {
         }
     }
 
-    // ================= DELETE =================
+
     @Override
     public void delete(int ratingId) {
 
@@ -109,7 +109,7 @@ public class RatingRepositoryImpl implements RatingRepository {
         }
     }
 
-    // ================= FIND BY ID =================
+
     @Override
     public Rating findById(int ratingId) {
 
@@ -136,7 +136,7 @@ public class RatingRepositoryImpl implements RatingRepository {
         }
     }
 
-    // ================= FIND ALL =================
+
     @Override
     public List<Rating> findAll() {
 
@@ -162,7 +162,7 @@ public class RatingRepositoryImpl implements RatingRepository {
         }
     }
 
-    // ================= BY SELLER =================
+
     @Override
     public List<Rating> findBySellerId(int sellerId) {
 
@@ -191,7 +191,7 @@ public class RatingRepositoryImpl implements RatingRepository {
         }
     }
 
-    // ================= BY BUYER =================
+
     @Override
     public List<Rating> findByBuyerId(int buyerId) {
 
@@ -220,7 +220,7 @@ public class RatingRepositoryImpl implements RatingRepository {
         }
     }
 
-    // ================= BY AD =================
+
     @Override
     public List<Rating> findByAdvertisementId(int advertisementId) {
 
@@ -249,7 +249,7 @@ public class RatingRepositoryImpl implements RatingRepository {
         }
     }
 
-    // ================= EXISTS =================
+
     @Override
     public boolean existsByBuyerIdAndAdvertisementId(int buyerId, int advertisementId) {
 
@@ -276,7 +276,7 @@ public class RatingRepositoryImpl implements RatingRepository {
         }
     }
 
-    // ================= MAP =================
+
     private Rating mapRating(ResultSet rs) throws SQLException {
 
         Rating rating = new Rating();

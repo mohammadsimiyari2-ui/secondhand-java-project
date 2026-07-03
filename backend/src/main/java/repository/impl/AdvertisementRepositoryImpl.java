@@ -381,7 +381,7 @@ public class AdvertisementRepositoryImpl implements AdvertisementRepository {
         }
     }
 
-    // ===================== MAP METHOD =====================
+
 
     private Advertisement mapAdvertisement(ResultSet rs) throws SQLException {
 

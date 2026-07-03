@@ -24,7 +24,7 @@ public class Message {
         this.content = content;
     }
 
-    // ================= ID =================
+
     public int getId() {
         return id;
     }
@@ -33,7 +33,7 @@ public class Message {
         this.id = id;
     }
 
-    // ================= Conversation =================
+
     public int getConversationId() {
         return conversationId;
     }
@@ -42,7 +42,7 @@ public class Message {
         this.conversationId = conversationId;
     }
 
-    // ================= Sender =================
+
     public User getSender() {
         return sender;
     }
@@ -51,7 +51,7 @@ public class Message {
         this.sender = sender;
     }
 
-    // ================= Content =================
+
     public String getContent() {
         return content;
     }
@@ -60,7 +60,7 @@ public class Message {
         this.content = content;
     }
 
-    // ================= Time =================
+
     public LocalDateTime getSentAt() {
         return sentAt;
     }
@@ -69,7 +69,7 @@ public class Message {
         this.sentAt = sentAt;
     }
 
-    // ================= Seen =================
+
     public boolean isSeen() {
         return seen;
     }

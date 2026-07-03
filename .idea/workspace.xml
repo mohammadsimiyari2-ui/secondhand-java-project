@@ -5,36 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ede9e5b9-2b8f-4643-8266-e0dafbea7d65" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/database/DatabaseInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/database/DatabaseManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/repository/impl/AdvertisementRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/repository/impl/CategoryRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/repository/impl/CityRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/repository/impl/ConversationRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/repository/impl/FavoriteRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/repository/impl/MessageRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/repository/impl/RatingRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/repository/impl/UserRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/model/Advertisement.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/model/Advertisement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/model/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/model/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/model/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/model/City.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/model/Conversation.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/model/Conversation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/model/Favorite.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/model/Favorite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/database/DatabaseInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/database/DatabaseInitializer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/main/java/model/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/model/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/model/Rating.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/model/Rating.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/classes/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/classes/model/Advertisement.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/model/Advertisement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/classes/model/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/model/Category.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/classes/model/City.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/model/City.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/classes/model/Conversation.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/model/Conversation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/classes/model/Favorite.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/model/Favorite.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/classes/model/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/model/Message.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/classes/model/Rating.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/model/Rating.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/classes/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/repository/impl/AdvertisementRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/repository/impl/AdvertisementRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/repository/impl/ConversationRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/repository/impl/ConversationRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/repository/impl/FavoriteRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/repository/impl/FavoriteRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/repository/impl/MessageRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/repository/impl/MessageRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/repository/impl/RatingRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/repository/impl/RatingRepositoryImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

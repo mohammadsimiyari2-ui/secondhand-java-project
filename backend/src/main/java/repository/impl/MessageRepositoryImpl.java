@@ -18,7 +18,7 @@ public class MessageRepositoryImpl implements MessageRepository {
         this.userRepository = new UserRepositoryImpl();
     }
 
-    // ================= SAVE =================
+
     @Override
     public Message save(Message message) {
 
@@ -59,7 +59,7 @@ public class MessageRepositoryImpl implements MessageRepository {
         }
     }
 
-    // ================= UPDATE =================
+
     @Override
     public Message update(Message message) {
 
@@ -89,7 +89,7 @@ public class MessageRepositoryImpl implements MessageRepository {
         }
     }
 
-    // ================= DELETE =================
+
     @Override
     public void delete(int messageId) {
 
@@ -109,7 +109,7 @@ public class MessageRepositoryImpl implements MessageRepository {
         }
     }
 
-    // ================= FIND BY ID =================
+
     @Override
     public Message findById(int messageId) {
 
@@ -136,7 +136,7 @@ public class MessageRepositoryImpl implements MessageRepository {
         }
     }
 
-    // ================= FIND ALL =================
+
     @Override
     public List<Message> findAll() {
 
@@ -162,7 +162,7 @@ public class MessageRepositoryImpl implements MessageRepository {
         }
     }
 
-    // ================= BY CONVERSATION =================
+
     @Override
     public List<Message> findByConversationId(int conversationId) {
 
@@ -195,7 +195,7 @@ public class MessageRepositoryImpl implements MessageRepository {
         }
     }
 
-    // ================= BY SENDER =================
+
     @Override
     public List<Message> findBySenderId(int senderId) {
 
@@ -228,7 +228,7 @@ public class MessageRepositoryImpl implements MessageRepository {
         }
     }
 
-    // ================= MAP =================
+
     private Message mapMessage(ResultSet rs) throws SQLException {
 
         Message message = new Message();
