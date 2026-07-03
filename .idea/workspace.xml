@@ -5,47 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ede9e5b9-2b8f-4643-8266-e0dafbea7d65" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/enums/AdvertisementStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/enums/SortType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/enums/UserRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/enums/UserStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/model/Advertisement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/model/AdvertisementImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/model/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/model/City.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/model/Conversation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/model/Favorite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/model/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/model/Rating.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/repository/interfaces/AdvertisementRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/repository/interfaces/CategoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/repository/interfaces/CityRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/repository/interfaces/ConversationRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/repository/interfaces/FavoriteRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/repository/interfaces/MessageRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/repository/interfaces/RatingRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/repository/interfaces/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/service/impl/AdminServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/service/impl/AdvertisementServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/service/impl/ConversationServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/service/impl/FavoriteServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/service/impl/RatingServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/service/interfaces/AdminService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/service/interfaces/AdvertisementService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/service/interfaces/ConversationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/service/interfaces/FavoriteService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/service/interfaces/RatingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/service/interfaces/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/FinalApProject/backend/App.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/database/DatabaseInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/database/DatabaseManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/repository/impl/AdvertisementRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/repository/impl/CategoryRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/repository/impl/CityRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/repository/impl/ConversationRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/repository/impl/FavoriteRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/repository/impl/MessageRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/repository/impl/RatingRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/repository/impl/UserRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/model/Advertisement.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/model/Advertisement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/model/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/model/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/model/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/model/City.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/model/Conversation.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/model/Conversation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/model/Favorite.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/model/Favorite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/model/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/model/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/model/Rating.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/model/Rating.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/model/Advertisement.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/model/Advertisement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/model/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/model/Category.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/model/City.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/model/City.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/model/Conversation.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/model/Conversation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/model/Favorite.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/model/Favorite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/model/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/model/Message.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/model/Rating.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/model/Rating.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/model/User.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,19 +61,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.App.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/backend&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/secondhand-java-project/backend/src/main/java/Repository&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.App.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "feature/backend",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/secondhand-java-project-demo"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\secondhand-java-project\backend\src\main\java\Repository" />
